@@ -14,7 +14,7 @@ public static boolean isPrime(int num){
 	public static void main(String [] args){
 		Scanner s = new Scanner (System.in);
 
-		System.out.println("Enter an integer:");
+		System.out.println("Enter an integer:");//Scanner for input taking
 		int number = s.nextInt();	
 
 		if(isPrime(number)){
